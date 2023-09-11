@@ -258,7 +258,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
+            <version>1.4.11</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -293,8 +293,7 @@
                         <phase>verify</phase>
                         <configuration>
                             <tasks>
-                                <copy file="target/dubbo-admin-server-${project.version}.jar"
-                                      tofile="../dubbo-admin-distribution/target/dubbo-admin-${project.version}.jar"/>
+                                <copy file="target/dubbo-admin-server-${project.version}.jar" tofile="../dubbo-admin-distribution/target/dubbo-admin-${project.version}.jar"/>
                             </tasks>
                         </configuration>
                         <goals>
