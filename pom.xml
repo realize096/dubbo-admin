@@ -63,7 +63,7 @@
 		<apollo-version>1.2.0</apollo-version>
 		<guava-version>20.0</guava-version>
 		<dubbo-mock-version>3.0.0</dubbo-mock-version>
-		<mybatis-plus-boot-version>3.4.2</mybatis-plus-boot-version>
+		<mybatis-plus-boot-version>3.5.4</mybatis-plus-boot-version>
 		<curator-test-veriosn>2.12.0</curator-test-veriosn>
 
 		<maven-checkstyle-plugin-version>3.0.0</maven-checkstyle-plugin-version>
